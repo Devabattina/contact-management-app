@@ -6,6 +6,7 @@ app = Flask(__name__)
 app.secret_key = 'secret123'
 
 # DATABASE CONFIG
+
 app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:password@localhost/contact_app'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
